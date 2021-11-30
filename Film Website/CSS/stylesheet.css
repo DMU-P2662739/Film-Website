@@ -1,0 +1,98 @@
+body{
+  background-color:#a94b00
+}
+#title{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size:600%
+}
+#menu{
+text-align: center;
+font-family: 'Lobster', cursive;
+font-size: 75px
+}
+h3,h4,h5{
+font-family: 'Lobster', cursive;
+}
+h3,h4{
+font-size: 100px;
+}
+h3{
+border-bottom: 10px black solid;
+}
+h4{
+color: white;
+text-align: center;
+box-sizing: border-box;
+width: 26%;
+border: 10px yellow solid;
+padding: 10px 20px;
+margin: 10px 10px 0px 10px;
+background-color:#3a1a01;
+clear: left;
+}
+h4::before{
+content: '';
+float: left;
+}
+.summary{
+float: right;
+box-sizing: border-box;
+width: 70%;
+}
+h5{
+font-size: 30px;
+border-bottom: 10px black solid;
+}
+p{
+font-family: 'Acme','Merriweather Sans', sans-serif;
+color: white;
+}
+.mainpara{
+font-size: 50px;
+border: 10px yellow solid;
+padding: 10px 20px;
+margin: 10px;
+background-color:#3a1a01
+}
+video{
+width: 75%;
+justify-content: center;
+margin: 200px;
+border: 10px gold solid;
+}
+.Picture{
+  width:25%;
+  height:25%;
+  margin: 10px 10px 0px 10px;
+  border: 10px gold solid;
+  float: left;
+}
+.interview{
+box-sizing: border-box;
+text-underline-position: right;
+float: right;
+}
+aside{
+  float: right;
+  box-sizing: border-box;
+  width: 31%;
+  font-size: 25px;
+  border: 10px yellow solid;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color:#3a1a01;
+}
+.footer{
+font-size: 25px;
+border: 10px yellow solid;
+padding: 10px 20px;
+margin:10px;
+background-color: #3a1a01
+}
+#instagram{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
