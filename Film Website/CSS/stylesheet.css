@@ -71,8 +71,9 @@ border: 1vw gold solid;
 .interview{
 box-sizing: border-box;
 text-underline-position: right;
-float: right;
+
 }
+
 aside{
 
   box-sizing: border-box;
