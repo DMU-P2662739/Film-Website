@@ -4,30 +4,30 @@ body{
 #title{
   font-family: 'Lobster', cursive;
   text-align: center;
-  font-size:600%
+  font-size:20vw
 }
 #menu{
 text-align: center;
 font-family: 'Lobster', cursive;
-font-size: 75px
+font-size: 10vw
 }
 h3,h4,h5{
 font-family: 'Lobster', cursive;
 }
 h3,h4{
-font-size: 100px;
+font-size: 6vw;
 }
 h3{
-border-bottom: 10px black solid;
+border-bottom: 1vw black solid;
 }
 h4{
 color: white;
 text-align: center;
 box-sizing: border-box;
-width: 26%;
-border: 10px yellow solid;
-padding: 10px 20px;
-margin: 10px 10px 0px 10px;
+width: 95vw;
+border: 0.8vw yellow solid;
+padding: 2vw ;
+margin: 0.5vw 0.5vw 0vw 0.5vw;
 background-color:#3a1a01;
 clear: left;
 }
@@ -36,37 +36,37 @@ content: '';
 float: left;
 }
 .summary{
-float: right;
-box-sizing: border-box;
-width: 70%;
+font-size: 5vw;
+border: 0.8vw yellow solid;
+padding: 2vw;
+margin: 0.5vw;
+
 }
 h5{
-font-size: 30px;
-border-bottom: 10px black solid;
+font-size: 4vw;
+border-bottom: 1vw black solid;
 }
 p{
 font-family: 'Acme','Merriweather Sans', sans-serif;
 color: white;
 }
 .mainpara{
-font-size: 50px;
-border: 10px yellow solid;
-padding: 10px 20px;
-margin: 10px;
+font-size: 5vw;
+border: 0.8vw yellow solid;
+padding: 2vw;
+margin: 0.5vw;
 background-color:#3a1a01
 }
 video{
-width: 75%;
+width: 75vw;
 justify-content: center;
-margin: 200px;
-border: 10px gold solid;
+margin-left: 10vw;
+border: 1vw gold solid;
 }
 .Picture{
-  width:25%;
-  height:25%;
-  margin: 10px 10px 0px 10px;
-  border: 10px gold solid;
-  float: left;
+  width:90vw;
+  margin: 10px 0px 0px 10px;
+  border: 1vw gold solid;
 }
 .interview{
 box-sizing: border-box;
@@ -74,25 +74,26 @@ text-underline-position: right;
 float: right;
 }
 aside{
-  float: right;
+
   box-sizing: border-box;
-  width: 31%;
-  font-size: 25px;
-  border: 10px yellow solid;
-  padding: 10px 20px;
-  margin-right: 10px;
-  margin-top: 10px;
+  width:50vw;
+  font-size: 3vw;
+  border: 0.8vw yellow solid;
+  padding: 2vw;
+  margin-top: 0.5vw;
+  margin-right: 2vw;
   background-color:#3a1a01;
+  float: right;
 }
 .footer{
-font-size: 25px;
-border: 10px yellow solid;
-padding: 10px 20px;
-margin:10px;
+font-size: 3vw;
+border: 0.8vw yellow solid;
+padding: 2vw;
+margin:0.5vw;
 background-color: #3a1a01
 }
 #instagram{
-  width: 100px;
-  height: 100px;
+  width:25vw;
+
   margin: 10px;
 }
