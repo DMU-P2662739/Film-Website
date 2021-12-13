@@ -1,16 +1,24 @@
 body{
   background-color:#a94b00
 }
+/*I made the body a brown background colour, by getting the desirted code from
+photoshop, as I wanted the entire background of my whole website to be this
+colour and fit the racial theme and focus on black people. */
 #title{
   font-family: 'Lobster', cursive;
   text-align: center;
   font-size:20vw
 }
+/*I made the title (Queen) id as I wanted it to be the only element that stood
+in the centre top of the website.*/
 #menu{
 text-align: center;
 font-family: 'Lobster', cursive;
 font-size: 10vw
 }
+/* Simliar to title, there will only be one menu, so I wanted to apply a
+specific unique set of design characteristics, of sitting under the title,
+as an id.*/
 h3,h4,h5{
 font-family: 'Lobster', cursive;
 }
@@ -20,6 +28,8 @@ font-size: 6vw;
 h3{
 border-bottom: 1vw black solid;
 }
+/* I wanted to give this sleek, modern look to my h3 sub-subtitles to add to the
+overall look of the page; resulting in me giving it an underlining border. */
 h4{
 color: white;
 text-align: center;
@@ -29,19 +39,12 @@ border: 0.8vw yellow solid;
 padding: 2vw ;
 margin: 0.5vw 0.5vw 0vw 0.5vw;
 background-color:#3a1a01;
-clear: left;
 }
-h4::before{
-content: '';
-float: left;
-}
-.summary{
-font-size: 5vw;
-border: 0.8vw yellow solid;
-padding: 2vw;
-margin: 0.5vw;
-
-}
+/* I used the box-sizing border-box on this and a few other elements to allow me
+to have the re-sizing values apply to every apsect of the box model, so when I
+set the width, it will restrict every other value I put on the element's box
+model to only being that width, making it easier for me to structure in how I
+want in terms of size on my page. */
 h5{
 font-size: 4vw;
 border-bottom: 1vw black solid;
@@ -50,6 +53,10 @@ p{
 font-family: 'Acme','Merriweather Sans', sans-serif;
 color: white;
 }
+/* I made the font different for the "p" and "header" elements as
+it's stylistically better to make your paragraph sans-serif fonts because they
+are easier to read. I also used fallback fonts just in case the user's browser
+doesn't have my original desired font.*/
 .mainpara{
 font-size: 5vw;
 border: 0.8vw yellow solid;
@@ -68,14 +75,13 @@ border: 1vw gold solid;
   margin: 10px 0px 0px 10px;
   border: 1vw gold solid;
 }
+/*I made the picture and video quite large so they are easily viewable on
+smaller viewports, like mobile for example, making my website responsive.*/
 .interview{
 box-sizing: border-box;
 text-underline-position: right;
-
 }
-
 aside{
-
   box-sizing: border-box;
   width:50vw;
   font-size: 3vw;
@@ -86,6 +92,9 @@ aside{
   background-color:#3a1a01;
   float: right;
 }
+/* I wanted my aside to float on the right, hanging off of the footer, as it is
+a peice of extra information that I didn't want to take up any centre of
+attention. */
 .footer{
 font-size: 3vw;
 border: 0.8vw yellow solid;
@@ -93,8 +102,11 @@ padding: 2vw;
 margin:0.5vw;
 background-color: #3a1a01
 }
+/* I made a deliberate choice to have my website's sizing values as "vw" as a
+way to add to my website's responsiveness; this value means it re-sizes itself
+depending on the size of the screen it's being view on, making my website
+responsive. */
 #instagram{
   width:25vw;
-
   margin: 10px;
 }

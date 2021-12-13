@@ -3,27 +3,49 @@
  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--"I had to include this element to allow for website responsiveness
+    for all diffrent screen sizes."-->
     <title>Dharnell's Film</title>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <!--"I linked all my fonts here with 2 of them being fallbacks in case
+    the user doesn't have the first font on their browser"-->
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css" >
+    <!--" I had to link my style sheet in order for my CSS to apply to the
+    website."-->
   </head>
   <body>
 <article>
 <header><h1 id="title">Queen</h1></header>
+<!--"As it's the title of the entire website, I set it as a h1 element.I gave it
+an id becuase I wanted it to be the only thing sitting at the highest point of
+the website with it having the highest order of improtance; being the header of
+the entire website."-->
 <nav>
 <h2 id="menu">
 <a href="filmhomepage.html">Home</a>
 <a href="cast.html">Cast</a>
 </h2>
+<!--"I also applied an id to the nav as there is only one access to navigaiton
+and I wanted that to be clear and easily accessible under the title, following
+the convenitons of a website."-->
 </nav>
+<!--"The nav element was useful in helping to organise my browser whilst
+making it accessible for the disbaled. As they are the titles of each page, I
+had it as a h2 element.I used an anchor element to link the other pages to
+the page."-->
 <section>
 <h3>Synopsis</h3>
 <p class="mainpara">About a young black african girl who had a terrible start to life,
 mental health issues, yet still manages to overcome the trails and tribulations
 caused from her race,gender and social class.</p>
 </section>
+<!--"The section element was useful in helping to organise my browser whilst
+making it accessible for the disbaled. Also I had made 'Synopsis' and 'Trailer'
+h3 elements as they are sub-titles for each section. I put this paragraph
+element in the 'mainpara' class as I wanted it, along with other "p" elements on
+the next page, to have a particular box model layout.-->
 <section>
 <h3>Trailer</h3>
 <video controls poster="IMG/Queen Cover.png">
@@ -32,9 +54,14 @@ caused from her race,gender and social class.</p>
  <source src="VID/Queen Trailer.webm" type="video/webm"/>
 </video>
 </section>
-</article>
+<!--"In case of the user having a browser that doesn't support the file type of
+my Trailer, I have multiple fallbacks for my trailer. I made controls
+"true" to give the user controls for the video. I also used "poster"" in order
+for me to put a poster image on the cover for the video , adding to the style of
+my website."-->
 <footer>
  <h5>Contact Us:</h5>
+ <!--"I made this a h5 as it was the title of the footer."-->
  <div class="footer">
  <p>Follow "Queen" on Instagram here:</p>
 <a href="https://www.instagram.com/d.create.ivity/">
@@ -48,6 +75,15 @@ caused from her race,gender and social class.</p>
 </p>
 <p>P Number:P2662739</p>
 </div>
+<!--"I used the "div" element for everything in the footer so I could eaily
+put it in it's own class and apply style to it. Also I intentionally didn't
+include the 'Contact Us' heading within the div, as it was a sub-title and I
+wanted it to have the same design as the other subtitles, not the div."-->
 </footer>
+<!--"I used the semantic footer element to help reinforce the structure of my
+wesbite, whilst making accessible for the disabled."-->
+</article>
+<!--" I nested everything within the article as apart of making my website
+accessible for the disabled."-->
   </body>
 </html>
